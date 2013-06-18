@@ -149,6 +149,13 @@ footer {
 
 /* About Us */
 
+.well {
+	margin-top: 16px;
+	margin-bottom: 0;
+	border: 1px solid #d4d4d4;
+	background-color: rgba(245, 245, 245, 0.5);
+}
+
 div.about-content {
 	text-align:left;
 	padding:15px 0 75px 0;
