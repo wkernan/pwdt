@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= full_title(yield(:title)) %></title>
+    <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    <%= csrf_meta_tags %>
+    <script>
+    // Load this when the DOM is ready
+    $(function(){
+      // You used .myCarousel here. 
+      // That's the class selector not the id selector,
+      // which is #myCarousel
+      $('#myCarousel').carousel();
+    });
+    </script>
+    <%= render 'layouts/shim' %>
+  </head>
+  <body>
+    <div class="container">
+      <%= render 'layouts/header' %>
+      <%= yield %>
+      <%= render 'layouts/footer' %>
+    </div>
+  </body>
+</html>
