@@ -35,6 +35,12 @@ textarea {
 	max-width: 1000px;
 }
 
+.span4 {
+	width: 323px;
+	margin-left: 20px;
+	text-align: center;
+}
+
 /* typography */
 
 h1, h2, h3, h4, h5, h6 {
@@ -102,6 +108,10 @@ li {
 .navbar .divider-vertical {
 	margin: 10px 9px;
 	border-left: 1px solid rgb(218,218,218);
+}
+
+.navbar .nav {
+	margin-right: 7px;
 }
 
 /* carousel */
