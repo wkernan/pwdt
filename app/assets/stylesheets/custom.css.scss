@@ -255,6 +255,11 @@ div.port-container {
 	}
 }
 
+@media (max-width: 1200px) {
+	.span4 {
+		width: 100%;
+	}
+}
 
 @media (max-width: 979px) and (min-width: 768px) {
 	body {
