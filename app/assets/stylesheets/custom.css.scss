@@ -11,18 +11,6 @@ body {
 	padding-top: 61px;
 }
 
-@media (max-width: 979px) and (min-width: 768px) {
-	body {
-		padding-top: 0;
-	}
-}
-
-@media (max-width: 768px) {
-	body {
-		padding-top: 0;
-	}
-}
-
 section {
 	overflow: auto;
 }
@@ -51,15 +39,6 @@ textarea {
 	width: 323px;
 	margin-left: 20px;
 	text-align: center;
-}
-
-@media (max-width: 767px) {
-	#footer {
-		margin-left: -20px;
-		margin-right: -20px;
-		padding-left: -20px;
-		padding-right: -20px;
-	}
 }
 
 /* typography */
@@ -264,4 +243,28 @@ div.port-container {
 	margin-bottom: 12px;
 	padding-top: 5px;
 	padding-bottom: 12px;
+}
+
+/* Media queries */
+
+
+@media (max-width: 979px) and (min-width: 768px) {
+	body {
+		padding-top: 0;
+	}
+}
+
+@media (max-width: 768px) {
+	body {
+		padding-top: 0;
+	}
+}
+
+@media (max-width: 767px) {
+	#footer {
+		margin-left: -20px;
+		margin-right: -20px;
+		padding-left: -20px;
+		padding-right: -20px;
+	}
 }
