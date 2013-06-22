@@ -37,8 +37,11 @@ textarea {
 
 .span4 {
 	width: 323px;
-	margin-left: 20px;
 	text-align: center;
+}
+
+.row {
+	margin: 0;
 }
 
 /* typography */
@@ -79,6 +82,7 @@ p {
 	padding-top: 5px;
 	font-weight: bold;
 	line-height: 2;
+	text-align: center;
 }
 
 #logo:hover {
