@@ -283,6 +283,9 @@ div.port-container {
 	.row {
 		margin-left: -27px;
 	}
+	.bio-p {
+		padding: 0;
+	}
 }
 
 @media (max-width: 480px) {
@@ -290,6 +293,12 @@ div.port-container {
 		margin-top: 0px;
 		margin-left: auto;
 		margin-right: auto;
+		float: none;
+	}
+	div.about-content {
+		text-align: center;
+	}
+	img.bio-pic {
 		float: none;
 	}
 }
