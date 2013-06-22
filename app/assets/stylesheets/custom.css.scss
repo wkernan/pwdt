@@ -42,10 +42,6 @@ textarea {
 	padding-top: 40px;
 }
 
-.row {
-	margin: 0;
-}
-
 /* typography */
 
 h1, h2, h3, h4, h5, h6 {
@@ -253,6 +249,12 @@ div.port-container {
 
 /* Media queries */
 
+@media (min-width: 1200px) {
+	.row {
+		margin: 0;
+	}
+}
+
 
 @media (max-width: 979px) and (min-width: 768px) {
 	body {
@@ -272,5 +274,8 @@ div.port-container {
 		margin-right: -20px;
 		padding-left: -20px;
 		padding-right: -20px;
+	}
+	.row {
+		margin-left: 25px;
 	}
 }
