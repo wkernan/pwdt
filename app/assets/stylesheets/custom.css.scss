@@ -11,6 +11,12 @@ body {
 	padding-top: 61px;
 }
 
+@media (max-width: 979px) and (min-width: 768px) {
+	body {
+		padding-top: 0;
+	}
+}
+
 section {
 	overflow: auto;
 }
@@ -39,21 +45,6 @@ textarea {
 	width: 323px;
 	margin-left: 20px;
 	text-align: center;
-}
-
-@media (min-width: 980px) {
-	.navbar-fixed-top .container {
-		width: auto;
-	}
-}
-
-@media (max-width: 979px) {
-	.container {
-		width: auto;
-	}
-	body {
-		padding-top: 0;
-	}
 }
 
 @media (max-width: 767px) {
@@ -96,7 +87,6 @@ p {
 
 #logo {
 	float: left;
-	margin-right: 10px;
 	font-size: 1.7em;
 	color: #555555;
 	text-transform: uppercase;
@@ -114,9 +104,17 @@ p {
 	min-height: 60px;
 }
 
+.navbar .nav {
+	margin: 0 -13px 0 0;
+}
+
 .navbar-fixed-top .navbar-inner {
 	box-shadow: none;
 	border-bottom: 1px solid #d4d4d4;
+}
+
+.navbar .btn-navbar {
+	margin-top: 16px;
 }
 
 li {
@@ -125,7 +123,7 @@ li {
 }
 
 #smedia {
-	padding: 10px 3px 10px 0px;
+	padding: 10px 9px 10px 0px;
 	font-size: 16px;
 	text-shadow: none;
 }
@@ -161,8 +159,9 @@ li {
 /* footer */
 
 footer {
-	margin-top: 45px;
-	padding-top: 5px;
+	margin-top: 40px;
+	padding-top: 25px;
+	padding-bottom: 20px;
 	border-top: 1px solid #eaeaea;
 	color: $grayLight;
 	a {
@@ -189,7 +188,7 @@ footer {
 /* About Us */
 
 .well {
-	margin-top: 16px;
+	margin-top: 10px;
 	margin-bottom: 0;
 	border: 1px solid #d4d4d4;
 	background-color: rgba(245, 245, 245, 0.5);
