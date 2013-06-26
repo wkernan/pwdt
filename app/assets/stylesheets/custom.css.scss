@@ -252,9 +252,15 @@ div.port-container {
 .con {
 	border-bottom: 2px solid #333333;
 	margin-top: 32px;
-	margin-bottom: 12px;
+	margin-bottom: 30px;
 	padding-top: 5px;
 	padding-bottom: 12px;
+}
+
+#map_canvas {
+	width: 1000px;
+	height: 400px;
+	background-color: #ccc;
 }
 
 /* Media queries */
