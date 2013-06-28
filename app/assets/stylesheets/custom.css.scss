@@ -35,14 +35,41 @@ textarea {
 	max-width: 1000px;
 }
 
+.span3 {
+
+}
+
 .span4 {
 	width: 323px;
 	text-align: center;
 	margin-left: 10px;
+	margin-top: 25px;
+}
+
+.span5 {
+
 }
 
 hr {
 	margin: 40px 0;
+	border-top: 1px solid #333333;
+}
+
+.soften {
+	height: 1px;
+	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.3), rgba(0,0,0,0));
+	border-top-color: initial;
+	border-top-style: initial;
+	border-top-width: 0px;
+	border-right-color: initial;
+	border-right-style: initial;
+	border-right-width: 0px;
+	border-bottom-color: initial;
+	border-bottom-style: initial;
+	border-bottom-width: 0px;
+	border-left-color: initial;
+	border-left-style: initial;
+	border-left-width: 0px;
 }
 
 /* typography */
@@ -72,12 +99,16 @@ p {
 	line-height: 1.7em;
 }
 
+#bold {
+	font-weight: bold;
+}
+
 /* header */
 
 #logo {
 	float: left;
 	font-size: 1.7em;
-	color: #555555;
+	color: #333333;
 	text-transform: uppercase;
 	letter-spacing: -1px;
 	padding-top: 5px;
@@ -121,6 +152,10 @@ li {
 .navbar .divider-vertical {
 	margin: 10px 9px;
 	border-left: 1px solid rgb(218,218,218);
+}
+
+.navbar .nav > li > a {
+	text-align: center;
 }
 
 /* carousel */
@@ -252,15 +287,50 @@ div.port-container {
 .con {
 	border-bottom: 2px solid #333333;
 	margin-top: 32px;
-	margin-bottom: 30px;
+	margin-bottom: 0px;
 	padding-top: 5px;
 	padding-bottom: 12px;
 }
 
 #map_canvas {
-	width: 1000px;
+	max-width: 1000px;
 	height: 400px;
 	background-color: #ccc;
+	clear: both;
+}
+
+#continfo {
+	text-align: center;
+	h2 {
+		font: 3em "Open Sans",Helvetica,Arial,sans-serif;
+		margin: 0 0 0 0;
+		color: #333333;
+	}
+	.span4 {
+		margin-bottom: 15px;
+	}
+	h3 {
+		font-weight: normal;
+	}
+	p {
+		margin: 0 0 0 0;
+	}
+	a {
+		text-decoration: none;
+		a:hover {
+			color: #333333;
+		}
+	}
+	hr {
+		margin: 10px 0 10px 0;
+		width: 60%;
+		margin-left: 67px;
+	}
+}
+
+.conp {
+	font-size: 1.5em;
+	font-weight: bold;
 }
 
 /* Media queries */
