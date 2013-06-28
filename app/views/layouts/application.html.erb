@@ -28,10 +28,16 @@
           mapTypeId: google.maps.MapTypeId.ROADMAP
         }
         var map = new google.maps.Map(map_canvas, map_options);
+        var companyLogo = new google.maps.MarkerImage('/assets/group-2.png',
+                new google.maps.Size(100,50),
+                new google.maps.Point(0,0),
+                new google.maps.Point(18,32)
+        );
         var companyPos = new google.maps.LatLng(30.211923,-97.748626);
         var companyMarker = new google.maps.Marker({
           position: companyPos,
           map: map,
+          icon: companyLogo,
           title:"Professional Workroom of Design"
         });
       }
