@@ -1,9 +1,9 @@
 Pwdt::Application.routes.draw do
   
-  root to: 'static_pages#home'
+  root to: 'static_pages#contact'
 
-  get "portfolio" => "static_pages#portfolio"
-  get "about" => "static_pages#about"
+  get "portfolio" => "static_pages#contact"
+  get "about" => "static_pages#contact"
   get "contact" => "static_pages#contact"
 
   # The priority is based upon order of creation:
