@@ -1,6 +1,6 @@
 Pwdt::Application.routes.draw do
   
-  root to: 'static_pages#contact'
+  root to: 'static_pages#home'
 
   get "portfolio" => "static_pages#contact"
   get "about" => "static_pages#contact"
